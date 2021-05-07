@@ -2,6 +2,7 @@ package main
 
 
 func main() {
-	cards := newDeck()
-	cards.saveToFile("")
+	cards := newDeckFromFile("myards.csv")
+	cards.print()
+	
 }
