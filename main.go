@@ -2,7 +2,8 @@ package main
 
 
 func main() {
-	cards := newDeckFromFile("myards.csv")
+	cards := newDeck()
+	cards.shuffle()
 	cards.print()
 	
 }
